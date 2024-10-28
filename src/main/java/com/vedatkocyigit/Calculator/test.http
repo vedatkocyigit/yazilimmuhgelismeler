@@ -1,0 +1,24 @@
+### GET http://localhost:21/calculator/sum?value1=1&value2=5.5
+
+
+### POST http://localhost:21/calculator/multip
+### Content-Type:application/json
+
+### {
+
+###    "value1": 2.3,
+###    "value2": null
+### }
+
+
+POST http://localhost:21/calculator/multip
+Content-Type:application/json
+
+{
+
+  "value1": 2.3,
+  "value2": 12.23
+}
+
+
+
