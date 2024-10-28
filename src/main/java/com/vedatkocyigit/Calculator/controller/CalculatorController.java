@@ -13,8 +13,8 @@ public class CalculatorController {
         return value1+value2;
     }
 
-    @PostMapping("/multip")
-    public Double multip(@RequestBody MultiplyRequest request){
+    @PostMapping("/multiply")
+    public Double multiply(@RequestBody MultiplyRequest request){
 
         Double val1 = request.getValue1() != null ? request.getValue1() : 0.0;
         Double val2 = request.getValue2() != null ? request.getValue2() : 0.0;
